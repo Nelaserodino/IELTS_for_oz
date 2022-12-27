@@ -5,4 +5,4 @@ This is my very first project that I created as part of the final project of the
 The project was made using HTML, Bootstrap and SASS.
 
 ## Website
-You can visit the website on www.ieltsforosz.com
+You can visit the website on www.ieltsforoz.com
