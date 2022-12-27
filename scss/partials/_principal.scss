@@ -1,0 +1,334 @@
+
+//INDEX//
+.banner{
+    background-image: url(/img/pexels-rebecca-kate-4604963.jpg);
+    background-size: cover;
+    padding: 14rem 3rem;
+    color: $colorAzul;
+    overflow: hidden;
+    &__span{  
+        color: #ffffff;
+    }
+    &__subtitulo{ 
+        text-align: right;
+    }
+}
+
+.descripcionIndex{
+    margin: 15rem 0;
+    color: $colorAzul;
+    &__img{
+        width: 70%;
+        border: $colorAzul 2px solid;
+        background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        border-radius: 15px 50px 30px;
+        box-shadow:  20px 20px 29px #aaaaaa,
+             -20px -20px 29px #ffffff;
+    }
+    &__h3{
+        color: $colorAzul; 
+    }
+    &__span{
+        color: $colorVerde;
+        font-family: $fuenteHeavy; 
+    }
+}
+
+.sobreMi{
+    margin: 15rem 0;
+    color: $colorAzul;
+    &__h3{
+        color: $colorAzul;
+        font-family: $fuenteHeavy;  
+        letter-spacing: 1px;
+        font-size: 2rem;
+    }
+    &__span{
+        color: $colorVerde;
+        font-family: $fuenteHeavy;  
+    }
+   &__img{
+        border-radius: 50%;
+        background: linear-gradient(225deg, #f0f0f0, #cacaca);
+        box-shadow:  -26px 26px 52px #aaaaaa,
+             26px -26px 52px #ffffff;
+        width: 80%;
+    }
+}
+
+.testimonio{ 
+    letter-spacing: 1px;
+    font-size: 2rem;
+    &__h3{
+        color: $colorAzul;
+        font-family: $fuenteHeavy; 
+    }
+    &__span{
+        color: $colorVerde; 
+        font-family: $fuenteHeavy;   
+    }
+}
+.testimonio__tarjeta{  
+    &__img{
+        width: 40%;
+    }
+    &__estrellas{
+        width: 40%;
+    }
+    &__texto{
+        text-align: center;
+        color: $colorAzul;
+        font-family: $fuenteNormal;
+    }
+}
+
+//IELTS//
+.containerIELTS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+    &__h2 {
+        text-align: center;
+    }
+    &__texto{
+        margin: 1.5rem 0;
+    }
+    .efectoTarjetas{
+        transition: box-shadow 0.5s, transform 0.5s;
+        margin: 1rem;
+        &:hover{
+            transform: scale(1.10);
+        }
+        a{
+            text-decoration: none;
+        }
+        &__icono{
+            margin-top: 1rem;
+            font-size: 4rem;
+            color: $colorVerde;
+        }
+    }
+    .containerIELTS-skills{
+        width: 90%;
+    }
+    .containerIELTS-skills__h3{
+            border: 2px solid $colorVerde;
+            height: 3rem;
+            margin-top: 5rem;
+    } 
+}
+ 
+
+//working holiday//
+.containerWH{
+    margin: 4rem;
+    &__h2{
+        text-align: center;
+    } 
+    a{
+        text-decoration: none;
+        color: $colorAzul;
+        font-family: $fuenteNegrita;
+    }
+   .accordion-button {
+        color: $colorAzul;
+        font-family: $fuenteNegrita;
+        background-color:$colorVerde;
+        border: 1px solid white;
+        box-shadow: none;
+        font-size: 1.2rem;
+    }
+}
+
+//cursos//
+
+.containerTarifas{
+    margin: 4rem;
+    &__h2{
+        text-align: center;
+    } 
+    .containerTarjetasCursos{
+        display: flex;
+    }
+    .cursos{
+        margin: 1rem;
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        transition: box-shadow 0.5s, transform 0.5s;
+        &:hover{
+            transform: scale(1.05);
+        }
+        &__img{
+            width: 80%;
+        }
+    }
+    .descripcionCurso li {
+        list-style: none;
+    }
+}
+
+//contacto//
+.formulario{
+    margin-top: 4rem 0;
+    &__h2{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    &__texto{
+        text-align: center;
+    }
+}
+.form-control{
+    border: #291B44 1px solid;
+    font-size: 1.2rem;
+    font-family: $fuenteNormal;
+} 
+#floatingTextarea{
+    height: 300px;
+}
+.textarea{
+    resize: none;
+}
+
+
+//Tests
+main{
+    margin: 4rem;
+}
+.desplegable{
+    font-family: $fuenteHeavy;
+    font-size: 1.4rem;
+    color: $colorAzul;
+    .dropdown-toggle{
+        color: $colorVerde;
+        font-family: $fuenteNegrita;
+        font-size: 1.4rem;
+    }
+    .dropdown-menu{
+        color: $colorVerde;
+        font-family: $fuenteNegrita;
+        font-size: 1.4rem;
+    }
+}
+.test-page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    .test-page-article{
+        color: $colorAzul;
+        font-family: $fuenteNegrita;
+        .test-page-article__header{
+            border-bottom: 2px solid black;
+            margin-bottom: 1rem;
+            padding-bottom:1rem;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            .stats{
+                text-align: left;
+                display: inline-flex;
+                align-items: center;
+            }
+        }
+        .test-page-article__content{
+            display: flex;
+            flex-direction: column;
+            .info-text{
+                margin-top: 1rem;
+            }
+            .info-text span{
+                font-family: $fuenteNegrita;
+            }
+           
+            .text-description{
+                line-height: 2.5rem;
+                padding: 1rem;
+                width: 100%;
+            }
+            .text-description span{
+                font-family: $fuenteNegrita;
+            }
+            .card-options{
+                width: 60%;
+                display: flex;
+                align-items: center;
+
+            }
+            .exercise{
+                display: flex;
+                margin-top: 2rem;
+            }
+            .options{
+                display: flex;
+                justify-content: flex-start;
+            }
+            .answers{
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+                .form-select{
+                    min-width: 7rem;
+                    background-color: white;
+                    width: auto;
+                    display: inline-block;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+}
+
+//CALCULATOR
+.calculator{
+    text-align: center;
+    width: 70%;
+    margin: 4rem auto;
+    padding: 1rem;
+    border: $colorVerde 4px solid;
+    .calculator-title{
+        border-bottom:$colorVerde 4px dotted;
+        line-height: 3rem;
+    }
+    .calculator-container{
+        display: flex;
+        flex-direction: column;
+        .calculator-container-description{
+            text-align: center;
+            margin: 1rem 0;
+        }
+        .calculator-container-section{
+            display: flex;
+            flex-direction: column;
+            .calculator-container-skills{
+                display: flex;
+                justify-content: space-evenly;
+                margin: 1rem;
+                align-items: center;
+                p{
+                    margin-bottom: 0;
+                }
+                .calculator-input{
+                    max-width: 3rem;
+                }
+                .calculadora-boton{
+                    padding: 0.3rem;
+                    background-color: $colorAzul;
+                    text-align: center;
+                    color: white;
+                    border-radius: 10px;
+                    border: 1px solid $colorAzul;
+                    font-family: $fuenteNegrita;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+
+   

@@ -1,0 +1,502 @@
+
+/*celular*/
+
+@media only screen and (max-width:575px) {
+    .letraDescripcion{
+        font-size: 1.2rem;
+    }
+  
+    #header{
+        padding: 20px 50px;
+        #check:checked ~ .header__menu{
+        right: 0;
+        }  
+        .mostrar-menu{
+        display: block;
+        }
+        .header__menu{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: #c5f0f0;
+            right: -100%;
+            top: 0;
+            text-align: center;
+            padding: 100px 0px;
+            z-index: 100;
+            transition: 0.8s;
+            display: block;
+            .header__link{
+                padding: 20px;
+                display: block;   
+            }
+            .esconder-menu{
+                display: block;
+                position: absolute;
+                top: 40px;
+                right: 40px;
+            }
+        }
+    }     
+
+
+    /*index*/
+    .seccionIndex{
+        width: 80%;
+        display: flex;
+        .banner{
+            padding: 7rem 2rem;
+            &__titulo{
+                font-size: 2.5rem;
+            }
+            &__span{
+                font-size: 2.5rem;
+            }
+            
+            &__subtitulo{
+                font-size: 1.4rem;
+            }
+        }
+    
+        .descripcionIndex{
+            margin: 3rem 0;
+            display: flex;
+            flex-direction: column;
+            .descricpion__img-container{
+                display: flex;
+                justify-content: center;
+            }
+            &__img{
+                margin: 2rem 0;
+            }
+            &__h3{    
+                font-size: 1.4rem;
+                text-align: center; 
+            }
+            &__p{
+                font-size: 1.2rem;
+                text-align: center; 
+            }
+        }
+        .sobreMi{
+            margin: 3rem 0;
+            display: flex;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            &__h3{    
+                font-size: 1.4rem;
+                text-align: center; 
+            }
+            &__p{
+                font-size: 1.2rem;
+                text-align: center; 
+            } 
+            &__img{
+                margin: 2rem 0;
+            }
+        }
+        .testimonio{
+            margin: 3rem 0;
+            display: flex;
+            justify-content: center;
+            &__h3{    
+                font-size: 1.4rem;
+                text-align: center; 
+            }
+        }
+       
+        .testimonio__tarjeta{  
+            &__img{
+                width: 40%;
+            }
+            &__estrellas{
+                width: 30%;
+            }
+        }
+    }
+   
+
+    //ietls//
+    .containerIELTS{
+        margin: 0 1rem;
+        &__h2{
+            font-size: 2.5rem;
+        }
+        &__texto{
+            margin: 1.5rem 0;
+            font-size: 1.2rem;
+        }
+        .efectoTarjetas {
+            width: 70%;
+            &__icono{
+                font-size: 3rem;
+            }
+            h3 {
+                font-size: 1.5rem;
+            }
+            transition: box-shadow 0.5s, transform 0.5s;
+            &:hover{
+                transform: scale(1.03);
+            }
+        }
+        .containerIELTS__tarjetas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .containerIELTS-skills{
+            width: 100%;
+        }
+    }
+    
+    
+    
+    //WH//
+    .containerWH {
+        margin: 0 1rem;
+        &__h2{
+            font-size: 2.5rem;
+        }
+        &__texto{
+            font-size: 1.2rem;
+        }
+    }
+
+    //cursos//
+    .containerTarifas{
+        margin: 0 1rem;
+        &__h2{
+            font-size: 2.5rem;
+        }
+        &__texto{
+            font-size: 1.2rem;
+        }
+        .containerTarjetasCursos{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            .cursos {
+                margin: 0.5rem;
+            }
+        }
+        .descripcionCurso{
+            width: 100%;
+        }
+    }
+    
+   
+    
+    //contacto//
+    .containerFormulario{
+        width: 90%;
+    } 
+
+    //footer//
+    .footer {
+        padding: 0;
+        justify-content: center;
+        .infoFooter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0px;
+        }
+        .redes {
+            padding-left: 0px;
+            align-items: center;
+        }
+    }
+}
+
+    
+/*tablet*/
+@media only screen and (min-width:576px) and (max-width:767px){ 
+    .letraDescripcion{
+        font-size: 1.2rem;
+    }
+   #header{
+        padding: 20px 50px;
+        #check:checked ~ .header__menu{
+            right: 0;
+        }  
+        .mostrar-menu{
+            display: block;
+        }
+        .header__menu{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: #c5f0f0;
+            right: -100%;
+            top: 0;
+            text-align: center;
+            padding: 100px 0px;
+            z-index: 100;
+            transition: 0.8s;
+            display: block;
+            .header__link{
+                padding: 20px;
+                display: block;   
+            }
+            .esconder-menu{
+                display: block;
+                position: absolute;
+                top: 40px;
+                right: 40px;
+            }
+        }     
+   }
+    /*index*/
+    .banner{
+        padding: 7rem 2rem;
+        &__titulo{
+            font-size: 2.5rem;
+        }
+        &__span{
+            font-size: 2.5rem;
+        }
+        &__subtitulo{
+            font-size: 1.4rem;
+        }
+    }
+
+    .descripcionIndex{
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        .descricpion__img-container{
+            display: flex;
+            justify-content: center;
+        }
+        &__img{
+            margin: 2rem 0;
+        }
+        &__h3{    
+            font-size: 1.4rem;
+            text-align: center; 
+        }
+        &__p{
+            font-size: 1rem;
+            text-align: center; 
+        }
+    }
+    .sobreMi{
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        &__h3{    
+            font-size: 1.4rem;
+            text-align: center; 
+        }
+        &__p{
+            font-size: 1rem;
+            text-align: center; 
+        } 
+        &__img{
+            margin: 2rem 0;
+        }
+    }
+    .testimonio{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        &__h3{
+        font-size: 1.4rem;
+        text-align: center; 
+        }
+    }
+    .testimonio__tarjeta{  
+        &__img{
+            width: 30%;
+        }
+        &__estrellas{
+            width: 30%;
+        }
+    }
+
+
+     //ielts//
+    .containerIELTS{
+        margin: 0 3rem;
+        &__h2{
+            font-size: 2.5rem;
+        }
+        &__texto{
+            font-size: 1.2rem;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .efectoTarjetas {
+        &__icono{
+            font-size: 3rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+        transition: box-shadow 0.5s, transform 0.5s;
+        &:hover{
+            transform: scale(1.10);
+        }
+    }
+    .containerIELTS__tarjetas{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 70%;
+    }
+    .containerIELTS-skills{
+        width: 90%;
+    }
+
+    //WH//
+    .containerWH {
+        margin: 0 3rem;
+        &__h2{
+            font-size: 2.5rem;
+        }
+        &__texto{
+            font-size: 1.2rem;
+        }
+    }
+    
+    //Cursos//
+    .containerTarifas {
+        margin: 0 3rem;
+        &__h2{
+        font-size: 2.5rem;
+        } 
+        &__texto{
+        font-size: 1.2rem;
+        }
+        .containerTarjetasCursos{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+        
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){ 
+    #header{
+        padding: 20px 50px;
+        #check:checked ~ .header__menu{
+            right: 0;
+        }  
+        .mostrar-menu{
+            display: block;
+        }
+        .header__menu{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: #c5f0f0;
+            right: -100%;
+            top: 0;
+            text-align: center;
+            padding: 100px 0px;
+            z-index: 100;
+            transition: 0.8s;
+            display: block;
+            .header__link{
+                padding: 20px;
+                display: block;   
+            }
+            .esconder-menu{
+                display: block;
+                position: absolute;
+                top: 40px;
+                right: 40px;
+            }
+        }     
+   }
+    .descripcionIndex{
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        .descripcionIndex__img{
+            width:50%;
+        }
+        .descripcionIndex__h3{
+            font-size: 2rem;
+            text-align: center; 
+            
+        }
+        &__img{
+            margin-bottom: 2rem;
+        }
+        &__p{
+            font-size: 1.4rem;
+            text-align: center; 
+        }
+        
+    }
+    
+    .sobreMi{
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        flex-direction: column-reverse;
+        .sobreMi__img{
+            width:50%;
+        }
+        &__p{
+            font-size: 1.4rem;
+            text-align: center; 
+        }
+        &__img{
+            margin-bottom: 2rem;
+            }
+        h3 {
+            font-size: 2rem;
+            text-align: center; 
+            }       
+    }
+    .testimonio__h3{
+        font-size: 2rem;
+        text-align: center; 
+    }
+    .efectoTarjetas h3{
+        font-size: 1.4rem;
+    }
+    .containerIELTS-skills{
+        font-size: 1.4rem;
+    }
+    .containerTarjetasCursos{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerWH {
+        margin: 0 3rem;
+    }
+    .containerIELTS {
+        margin: 0 3rem;
+    }
+    .containerTarifas {
+        margin: 0 3rem;
+    }
+}
+
+/*compu*/
+@media only screen and (min-width:992px){
+
+    .descripcionIndex{
+        display: flex;
+        margin: 8rem 0;
+        .descripcionIndex__img{
+            width:90%;
+        }
+    }
+    .sobreMi{
+        display: flex;
+        margin: 8rem 0;
+        .sobreMi__img{
+            width:90%;
+        }
+    }
+}

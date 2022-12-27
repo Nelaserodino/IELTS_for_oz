@@ -1,0 +1,621 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+/*INDEX - HEADER*/
+
+#header{
+    background-color: white;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+.header__logo{
+    margin-bottom: 0;
+}
+.header__logo a {
+    text-transform: uppercase;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    letter-spacing: 1px;
+    color: #02CDD0;
+    font-size: 1.5rem;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.header__menu{
+    display: flex;
+    padding: 0 0.62rem;
+    transition: 0.4s;
+    text-align: center;
+}
+
+
+.header__link {
+    padding: 0.9rem;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #291B44;
+    font-size: 1.3rem;
+    transition: 0.4s;
+    text-decoration: none;
+
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 1.87rem;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.header__menu :hover,
+.header__link :hover,
+.mostrar-menu :hover,
+.esconder-menu:hover{
+    color: #02CDD0;
+}
+
+.header__logo :hover{
+    color: #291B44;
+}
+
+#check {
+     display: none;
+ }
+/*INDEX - MAIN*/
+.banner{
+    background-image: url(/img/pexels-rebecca-kate-4604963.jpg);
+    background-size: cover;
+    padding: 14rem 3rem;
+    color: #291B44;
+}
+
+.banner__titulo,
+.banner__span{
+    font-size: 4rem;
+    font-family: 'Gilroy-Heavy', sans-serif;  
+    letter-spacing: 3px;   
+}
+
+.banner__span{
+    color: #ffffff;
+}
+
+.banner__subtitulo{
+    font-size: 1.8rem;
+    font-family: 'Gilroy-Regular', sans-serif;  
+    text-align: right;
+}
+
+.descripcionIndex,
+.sobreMi{
+    margin: 15rem 0;
+    color: #291B44;
+}
+.descripcionIndex__img{
+    width: 100%;
+    border: #291B44 2px solid;
+    border-radius: 15px 50px 30px;
+}
+.descripcionIndex__h2,
+.sobreMi__h2,
+.testimonio__h2{
+    color: #291B44;
+    font-family: 'Gilroy-Bold', sans-serif;  
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.descripcionIndex__span,
+.sobreMi__span,
+.testimonio__span{
+    color: #00C8CC;
+    font-family: 'Gilroy-Bold', sans-serif;  
+}
+.descripcionIndex__p,
+.sobreMi__p{
+    font-size: 1.4rem;
+    font-family: 'Gilroy-Regular', sans-serif;  
+
+}
+.descripcionIndex__boton{
+    border: none;
+    background-color: #291B44;
+    color: white;
+    font-family: 'Gilroy-Bold', sans-serif; 
+    letter-spacing: 1px;
+} 
+      
+.descripcionIndex__boton:hover{
+    background-color: #00C8CC;
+    color: #291B44;
+   }
+
+.sobreMi__img{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.testimonio__caja{
+    border: #291B44 2px solid;
+}
+
+.testimonio__tarjeta__img,
+.testimonio__tarjeta__estrellas{
+    width: 40%;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-top: 1rem;
+    padding: 2rem 0;
+}
+.footer__h4{
+    font-size: 1.2rem; 
+    font-family: 'Gilroy-Bold', sans-serif; 
+    letter-spacing: 1px;
+    border-bottom: 1px solid #291B44;;
+}
+.footer a{
+    padding-left: 0.5rem;
+    text-decoration: none;
+    color: #291B44;
+    font-family: 'Gilroy-Bold', sans-serif; 
+    letter-spacing: 1px;
+    font-size: 1.2rem; 
+}
+.footer i{
+    transition: 0.4s;
+    margin: 0.5rem;
+}
+.footer i:hover{
+    transform: translateX(-5%);
+}
+*/
+
+
+/*IELTS*/
+.icono{
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: #02CDD0;
+}
+.efectoTarjetas{
+    transition: all 0.4s;
+    margin: 1rem;
+}
+.efectoTarjetas:hover{
+    transform: translateY(-5%);
+}
+
+.efectoTarjetas a{
+    text-decoration: none;
+}
+.efectoTarjetas h5,
+.containerIELTS-skills h5{
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #291B44;
+    font-size: 2rem;
+}
+
+/*IELTS, WORKING HOLIDAY, Tarifas*/
+.containerIELTS p,
+.containerWH p,
+.containerTarifas p{
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+.containerIELTS h1,
+.containerWH h1,
+.containerTarifas h1{
+    color: #291B44;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Gilroy-Heavy', sans-serif;  
+    letter-spacing: 3px;
+} 
+.containerIELTS span,
+.containerWH span,
+.containerTarifas span{
+    color: #00C8CC;
+    font-family: 'Gilroy-Heavy', sans-serif;
+} 
+.containerIELTS li{
+    font-size: 1.2rem;
+}
+.containerIELTS,
+.containerWH,
+.containerTarifas{
+    margin: 4rem 0;
+}
+
+.containerIELTS-skills h5{
+    border: 2px solid #00C8CC;
+    height: 3rem;
+    margin-top: 5rem;
+}
+
+/*CURSOS*/
+.cursos__tarjeta img{
+    width: 80%;
+}
+.cursos__tarjeta{
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/*CONTACTO*/
+
+.formulario h4{
+    font-family: 'Gilroy-Bold', sans-serif;  
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    color: #291B44;
+    text-align: center;
+}
+
+.formulario p{
+    font-family: 'Gilroy-Regular', sans-serif;  
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #291B44;
+}
+
+.formulario__boton {
+     border: none;
+     background-color: #02CDD0;
+     font-family: 'Gilroy-bold', sans-serif;
+}
+
+
+.form-control{
+    border: #291B44 1px solid;
+    font-family: 'Gilroy-bold', sans-serif;  
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #291B44;
+} 
+
+
+.formulario__boton:hover{
+    background-color: #291B44;
+    color: white;
+}
+
+
+
+/*celular*/
+
+@media only screen and (max-width:575px) {
+  
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+    #header{
+        padding: 10px 20px;
+    }
+    .header__menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #c5f0f0;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+        display: block;
+    }
+    .header__link{
+        padding:20px;
+        display: block;   
+    }
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right:40px;
+    }
+   #check:checked ~ .header__menu{
+        right: 0;
+    }
+    /*index*/
+    .banner{
+        padding: 7rem 2rem;
+    }
+    .banner__titulo,
+    .banner__span{
+        font-size: 2.5rem;
+    }
+    .banner__subtitulo{
+        font-size: 1.4rem;
+    }
+
+    .descripcionIndex,
+    .sobreMi{
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .descricpion__img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .descripcionIndex__img,
+    .sobreMi__img{
+        margin: 2rem 0;
+    }
+    .sobreMi{
+     flex-direction: column-reverse;
+    }
+    .descripcionIndex__h2,
+    .sobreMi__h2,
+    .testimonio__h2{    
+        font-size: 1.4rem;
+        text-align: center; 
+    }
+    .descripcionIndex__p,
+    .sobreMi__p{
+        font-size: 1rem;
+        text-align: center; 
+    }   
+    .testimonio__tarjeta__img{
+        width: 30%;
+    }
+    .testimonio__tarjeta__estrellas{
+        width: 30%;
+    }
+    
+
+    /*ietls*/
+    .efectoTarjetas h5{
+        font-size: 1.5rem;
+    }
+    .containerIELTS__tarjetas{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 70%;
+    }
+    .icono{
+        font-size: 3rem;
+    }
+    .efectoTarjetas:hover{
+        transform: translateX(-5%);
+    }
+
+
+    /*ielts, WH, Tarifas*/
+    .containerIELTS h1,
+    .containerWH h1,
+    .containerTarifas h1{
+    font-size: 3rem;
+    } 
+    .containerIELTS span,
+    .containerWH span,
+    .containerTarifas span{
+    color: #00C8CC;
+    } 
+    .containerIELTS-skills p,
+    .containerIELTS-skills li{
+        font-size: 0.9rem;
+    }
+    .containerIELTS-skills h5{
+        font-size: 1.4rem;
+        height: 2.5rem;
+    }
+    .cursos__tarjeta img{
+        width: 50%;
+    }
+    .cursos__tarjeta{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .card-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width:576px) and (max-width:767px) {
+    
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+
+    #header{
+        padding: 20px 50px;
+    }
+
+    .header__menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #c5f0f0;
+       right: -100%;
+       top: 0;
+       text-align: center;
+       padding: 100px 0px;
+       z-index: 100;
+       transition: 0.8s;
+       display: block;
+    }
+
+    .header__link{
+        padding: 20px;
+        display: block;   
+    }
+
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+   #check:checked ~ .header__menu{
+        right: 0;
+    }
+    .banner{
+        padding: 10rem 2rem;
+    }
+    .banner__titulo,
+    .banner__span{
+        font-size: 3.3rem;  
+    }
+    .banner__subtitulo{
+        font-size: 1.6rem;
+    }
+    .descripcionIndex,
+    .sobreMi{
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+   
+    .descripcionIndex__img,
+    .sobreMi__img{
+        width:90%;
+        margin-bottom: 2rem;
+    }
+    .sobreMi{
+        flex-direction: column-reverse;
+    }
+    .descripcionIndex__h2,
+    .sobreMi__h2,
+    .testimonio__h2{
+        font-size: 2rem;
+        text-align: center; 
+    }
+    .descripcionIndex__p,
+    .sobreMi__p{
+        font-size: 1.4rem;
+        text-align: center; 
+    }
+     /*ielts*/
+     .efectoTarjetas h5{
+        font-size: 1.3rem;
+    }
+    .icono{
+        font-size: 3rem;
+    }
+    .card{
+        margin: 0.5rem;
+    }
+    .containerIELTS__tarjetas{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 70%;
+    }
+    .efectoTarjetas:hover{
+        transform: translateX(-5%);
+    }
+    .cursos__tarjeta img{
+        width: 50%;
+    }
+    .cursos__tarjeta{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+    }
+    .card-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ 
+    
+    .descripcionIndex,
+    .sobreMi{
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+   
+    .descripcionIndex__img,
+    .sobreMi__img{
+        width:70%;
+        margin-bottom: 2rem;
+    }
+    .sobreMi{
+        flex-direction: column-reverse;
+    }
+    .descripcionIndex__h2,
+    .sobreMi__h2,
+    .testimonio__h2{
+        font-size: 2rem;
+        text-align: center; 
+    }
+    .descripcionIndex__p,
+    .sobreMi__p{
+        font-size: 1.4rem;
+        text-align: center; 
+    }
+
+    /*ielts*/
+    .efectoTarjetas h5{
+        font-size: 1.4rem;
+    }
+    .card__cursos img{
+        width:60%;
+    }
+    .container__cursos{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__cursos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/*compu*/
+@media only screen and (min-width:992px){
+    .descripcionIndex,
+    .sobreMi{
+        display: flex;
+        margin: 10rem 0;
+    }
+    .descripcionIndex__img,
+    .sobreMi__img{
+        width:90%;}
+}
+
+

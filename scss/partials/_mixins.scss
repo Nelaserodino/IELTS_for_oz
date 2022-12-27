@@ -1,0 +1,21 @@
+@mixin font ($size, $family, $spacing, $color){
+    font-size: $size;
+    font-family: $family;
+    letter-spacing: $spacing;
+    color: $color;
+}
+
+.letraDescripcion{
+    @include font(1.2rem, $fuenteNormal, none, $colorAzul);
+}
+
+.letraSubtitulo{
+    @include font(1.8rem, $fuenteNegrita, 1px, $colorAzul);
+}
+
+.letraTitulo{
+    @include font(4rem, $fuenteHeavy, 3px, $colorAzul);
+}
+.letraTituloSpan{
+    @include font(4rem, $fuenteHeavy, 3px, $colorVerde);
+}

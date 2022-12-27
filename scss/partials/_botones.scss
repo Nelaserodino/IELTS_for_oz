@@ -1,0 +1,24 @@
+.boton{
+    background-color: $colorAzul;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid $colorAzul;
+    font-family: $fuenteNegrita;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &:hover{
+        background-color: $colorVerde;
+        color: $colorAzul;
+    }
+}
+
+.botonCursos {
+    @extend .boton;
+    background-color: $colorVerde;
+    color: $colorAzul;
+    &:hover{
+        background-color: $colorAzul;
+        color: white;
+    }
+}

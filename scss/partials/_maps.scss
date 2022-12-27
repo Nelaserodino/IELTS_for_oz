@@ -1,0 +1,15 @@
+$redes: (
+    "Instragram": #C13584,
+    "Whatsapp": #25D366,
+    "Email": white,
+);
+
+.fa-instagram{
+    color: map-get($map: $redes, $key: Instragram );
+}
+.fa-whatsapp{
+    color: map-get($map: $redes, $key:Whatsapp );
+}
+.fa-envelope{
+    color: map-get($map: $redes, $key:Email );
+}
